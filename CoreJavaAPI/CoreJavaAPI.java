@@ -6,38 +6,38 @@ import java.util.Scanner;
 
 public class CoreJavaAPI {
     public static void main(String[] args) {
-//
-//        reversedString();
-//
-//        palindrome();
-//
-//        concatenate();
-//
-//        vowels();
-//
-//        capitalize();
-//
-//        occurences();
-//
-//        duplicate();
-//
-//        specifiedIndex();
-//
-//        frequency();
-//
-//        morse();
-//
-//        caesarCipher();
-//
-//        convert();
-//
-//        compressed();
-//
-//        remove();
-//
-//        anagrams();
-//
-//        toggle();
+
+        reversedString();
+
+        palindrome();
+
+        concatenate();
+
+        vowels();
+
+        capitalize();
+
+        occurences();
+
+        duplicate();
+
+        specifiedIndex();
+
+        frequency();
+
+        morse();
+
+        caesarCipher();
+
+        convert();
+
+        compressed();
+
+        remove();
+
+        anagrams();
+
+        toggle();
 
         romanNumbers();
 
