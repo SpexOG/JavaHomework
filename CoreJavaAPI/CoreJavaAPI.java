@@ -6,39 +6,40 @@ import java.util.Scanner;
 
 public class CoreJavaAPI {
     public static void main(String[] args) {
+//
+//        reversedString();
+//
+//        palindrome();
+//
+//        concatenate();
+//
+//        vowels();
+//
+//        capitalize();
+//
+//        occurences();
+//
+//        duplicate();
+//
+//        specifiedIndex();
+//
+//        frequency();
+//
+//        morse();
+//
+//        caesarCipher();
+//
+//        convert();
+//
+//        compressed();
+//
+//        remove();
+//
+//        anagrams();
+//
+//        toggle();
 
-        reversedString();
-
-        palindrome();
-
-        concatenate();
-
-        vowels();
-
-        capitalize();
-
-        occurences();
-
-        duplicate();
-
-        specifiedIndex();
-
-        frequency();
-
-        morse();
-
-        caesarCipher();
-
-        convert();
-
-        compressed();
-
-        remove();
-
-        anagrams();
-
-        toggle();
-
+        romanNumbers();
 
     }
 
@@ -714,6 +715,42 @@ public class CoreJavaAPI {
         }
 
         System.out.println("String-ul cu caracterele inversate este: " + sb);
+
+        System.out.println();
+        System.out.println("TERMINAT__________________________________________________________________________________");
+        System.out.println();
+
+    }
+
+    // Integer To Roman
+    private static void romanNumbers() {
+
+        System.out.println("EX17______________________________________________________________________________________");
+        System.out.println();
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Introduceti numarul: ");
+        int numar = scanner.nextInt();
+
+        StringBuilder sb = new StringBuilder();
+
+        String[] roman = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        int [] valori = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+
+
+        if (numar > 0 && numar <= 4000) {
+            for (int i = 0; i < valori.length; i++){
+                while (numar >= valori[i]){
+                    sb.append(roman[i]);
+                    numar = numar - valori[i];
+                }
+            }
+        }else{
+            System.out.println("Numarul este in afara range-ului!");
+        }
+
+        System.out.println("Numarul exprimat in numere romane este: " + sb);
 
         System.out.println();
         System.out.println("TERMINAT__________________________________________________________________________________");
