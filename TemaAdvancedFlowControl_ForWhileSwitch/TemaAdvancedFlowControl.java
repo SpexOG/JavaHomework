@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class TemaAdvancedFlowControl {
     public static void main(String[] args) {
 
+ Java-Operators-and-For-Loop
+  
         Scanner scanner = new Scanner(System.in);
 
         oddChecker(scanner);
@@ -37,13 +39,14 @@ public class TemaAdvancedFlowControl {
 
     // 1. Even or Odd Checker.
     // Write a Java program that takes an integer as input. If the number is even, print "Even". If it's odd, print "Odd".
+ Java-Operators-and-For-Loop
     private static void oddChecker(Scanner scanner) {
 
         System.out.println("EX1___________________________________________________________________________________________");
         System.out.println();
 
         int numar;
-
+  
         System.out.println("Introduceti numarul: ");
 
         numar = scanner.nextInt();
@@ -64,12 +67,16 @@ public class TemaAdvancedFlowControl {
     // Write a program that asks the user to enter a number between 1 and 12.
     // Print the name of the corresponding month or "Invalid Month" if out of range.
 
+ Java-Operators-and-For-Loop
     private static void monthNameFinder(Scanner scanner) {
+
 
         System.out.println("EX2___________________________________________________________________________________________");
         System.out.println();
 
         int numar;
+
+ Java-Operators-and-For-Loop
 
         System.out.println("Introduceti numarul: ");
 
@@ -100,10 +107,14 @@ public class TemaAdvancedFlowControl {
     // 3. Counting Negative Numbers
     // Given an array of integers, write a program to count and print the number of negative integers in the array.
 
+ Java-Operators-and-For-Loop
     private static void countingNegativeNumbers(Scanner scanner) {
+
 
         System.out.println("EX3___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         int counter = 0;
         int lungimeVector;
@@ -143,10 +154,14 @@ public class TemaAdvancedFlowControl {
     // 4. String Reverser
     // Ask the user to enter a string.
     // Print the reversed version of this string.
+ Java-Operators-and-For-Loop
     private static void stringReverser(Scanner scanner) {
+
 
         System.out.println("EX4___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         System.out.print("Introduceti String-ul: ");
 
@@ -168,10 +183,14 @@ public class TemaAdvancedFlowControl {
 
     // 5. Fibonacci Series Generator
     // Write a program that generates and prints the first n numbers of the Fibonacci series, where n is provided by the user.
+ Java-Operators-and-For-Loop
     private static void fibonacciSeriesGenerator(Scanner scanner) {
+
 
         System.out.println("EX5___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         int n, a = 0, b = 1, c;
 
@@ -201,10 +220,14 @@ public class TemaAdvancedFlowControl {
     // Write a program that asks the user to enter numbers.
     // The program should continue prompting the user until they enter -1.
     // After they enter -1, print the sum of all numbers entered (excluding -1).
+ Java-Operators-and-For-Loop
     private static void whileLoop(Scanner scanner) {
+
 
         System.out.println("EX6___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         System.out.println("Introduceti un numar: ");
 
@@ -234,10 +257,14 @@ public class TemaAdvancedFlowControl {
     // After each guess, the program should inform the user if the guess is too high or too low.
     // The program should keep prompting the user until they guess correctly. Using a do-while loop, ensure the user is always asked at least once.
 
+ Java-Operators-and-For-Loop
     private static void doWhileLoop(Scanner scanner) {
+
 
         System.out.println("EX7___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         int nrGhicit;
         int nrPredefinit;
@@ -297,10 +324,14 @@ public class TemaAdvancedFlowControl {
     // 9. For-Each Loop
     // Given an array of integers, write a program that prints each number in the array followed by "Even" if the number is even, or "Odd" if the number is odd.
     // Utilize a for-each loop for this task.
+ Java-Operators-and-For-Loop
     private static void forEachLoop(Scanner scanner) {
+
 
         System.out.println("EX9___________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         int n;
 
@@ -336,10 +367,14 @@ public class TemaAdvancedFlowControl {
     // Exit.
     // Based on the user's input, perform the necessary action.
     // Once an action is completed, show the menu again, unless the user chooses the Exit option. Use jump statements to control the flow of the program.
+ Java-Operators-and-For-Loop
     private static void jumpStatements(Scanner scanner) {
+
 
         System.out.println("EX10__________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         int n;
 
@@ -376,10 +411,14 @@ public class TemaAdvancedFlowControl {
     // Write a program that prompts the user to enter numbers.
     // Calculate the average of these numbers.
     // If the user enters 0, break out of the input loop and then print the average of the numbers entered so far.
+ Java-Operators-and-For-Loop
     private static void breakStatement(Scanner scanner) {
+
 
         System.out.println("EX11__________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         double sum = 0, contor = 0;
         double average, averageModulo;
@@ -407,10 +446,14 @@ public class TemaAdvancedFlowControl {
     // Create a program that asks the user for 10 numbers.
     // Print the sum of all numbers that are greater than 5.
     // If the user enters a number less than or equal to 5, use the continue statement to skip the addition for that number.
+ Java-Operators-and-For-Loop
     private static void continueStatement(Scanner scanner) {
+
 
         System.out.println("EX12__________________________________________________________________________________________");
         System.out.println();
+
+ Java-Operators-and-For-Loop
 
         System.out.println("Introduce numerele: ");
 
