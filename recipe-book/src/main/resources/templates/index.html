@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Collection</title>
+</head>
+<body>
+    <h1>All recipes</h1>
+    <ul>
+        <li th:each="recipe : ${recipes}">
+            <h2 th:text="${recipe.recipeTitle}"></h2>
+            <p><strong>List of ingredients:</strong><span th:text = ${recipe.ingredients}></span></p>
+            <p><strong>Preparation steps:</strong><span th:text = ${recipe.preparationSteps}></span></p>
+            <p><strong>Description:</strong><span th:text = ${recipe.description}></span></p>
+            <p><strong>Cooking Time:</strong><span th:text = ${recipe.cookingTime}></span></p>
+        </li>
+    </ul>
+    <a href="/recipes/add">Add a new recipe</a>
+</body>
+</html>
