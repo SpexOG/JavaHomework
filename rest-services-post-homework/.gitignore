@@ -31,19 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-# Logs
-logs/
-*.log
-
-# Test output
-/test-output/
-
-# Miscellaneous
-*.DS_Store
-
-# Java-related
-*.class
-
-# Temp files
-*.swp
-*.tmp

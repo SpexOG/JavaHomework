@@ -1,10 +1,10 @@
-package com.temaSpring.recipe_book;
+package com.post_homework.rest_services;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecipeBookApplicationTests {
+class RestServicesApplicationTests {
 
 	@Test
 	void contextLoads() {
