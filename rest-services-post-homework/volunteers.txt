@@ -1,0 +1,2 @@
+Event: Donating clothes, Name: Mircea Marius, Email: mircea.florin@gmail.com, Phone: 0786345219
+Event: Building Houses, Name: Sebastian Mutulescu, Email: sebastian.mutulescu9@gmail.com, Phone: 0773890986
