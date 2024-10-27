@@ -1,14 +1,14 @@
-package com.post_homework.rest_services;
+package com.greetings.beans_annotation_container;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestServicesApplication {
+public class BeansAnnotationContainerApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(RestServicesApplication.class, args);
+		SpringApplication.run(BeansAnnotationContainerApplication.class, args);
 
 	}
 

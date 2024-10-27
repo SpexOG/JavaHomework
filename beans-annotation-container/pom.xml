@@ -8,11 +8,11 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.post-homework</groupId>
-	<artifactId>rest-services</artifactId>
+	<groupId>com.greetings</groupId>
+	<artifactId>beans-annotation-container</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-services</name>
-	<description>Demo project for Spring Boot with REST</description>
+	<name>beans-annotation-container</name>
+	<description>Demo project for Spring Boot ans beans annotation containers</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -30,6 +30,10 @@
 		<java.version>23</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
