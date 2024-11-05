@@ -8,7 +8,7 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jpaHomework1</groupId>
+	<groupId>com.HomeworkJPA</groupId>
 	<artifactId>JPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JPA</name>
