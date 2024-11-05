@@ -1,10 +1,10 @@
-package com.greetings.beans_annotation_container;
+package com.HomeworkJPA.JPA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BeansAnnotationContainerApplicationTests {
+class JpaApplicationTests {
 
 	@Test
 	void contextLoads() {
